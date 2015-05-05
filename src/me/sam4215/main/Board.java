@@ -10,6 +10,10 @@ public class Board {
     space = 1;
   }
   public void nextTurn() {
+    if(space >= 25) {
+      System.out.println("You win!");
+      System.exit(0);
+    }
     int s = Math.random();
     if(s > 5 || s < 0) {
       for(String str : cards) {
@@ -24,4 +28,5 @@ public class Board {
       int nextSpace = space + Math.random();
       nextSpace = space;
     }
-}}
+  }
+}
