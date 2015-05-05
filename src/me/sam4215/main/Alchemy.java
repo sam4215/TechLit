@@ -4,7 +4,8 @@ public class Alchemy {
   Board board = new Board();
   public static void main(String[] args) {
     if(args.contains("Forty-Two")) {
-      //Do stuff
+      System.out.println("You win!");
+      System.exit(0);
     }
     board.start();
   }
