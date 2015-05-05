@@ -1,19 +1,27 @@
 public class Board {
   public int space;
-  public List<String> cards = new List<String>();
-  cards.add("Everthing seems quiet, that's strange....");
-  cards.add("Time to take a rest");
-  cards.add("Fight the odd battle...");
-  cards.add("This, I daresay, is quite strange...")
-  public List<String, int> special = new List<String, int>
+  public String[] cards = {"Everthing seems quiet, that's strange....", 
+  "Time to take a rest....", 
+  "Fight the odd battle.", 
+  "This, I daresay, is quite strange...."
+  }
+  public String[] special = {"Ooh, a dragon!", "Hide!", "Ooh boy."}
   public void start() {
     space = 1;
   }
   public void nextTurn() {
-    if(space == special.get(String, Math.random())) {
-      System.out.println(Special.get(Math.random());
-      
+    int s = Math.random();
+    if(s > 5 || s < 0) {
+      for(String str : cards) {
+        System.out.println(str);
+      }
+      space++;
     }
-    System.out.println(cards.get(Math.random()));
-    space++;
-  }  
+    else {
+      for(String str : special) {
+        System.out.println(str);
+      }
+      int nextSpace = space + Math.random();
+      nextSpace = space;
+    }
+}}
