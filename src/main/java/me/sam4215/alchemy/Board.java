@@ -5,13 +5,13 @@ public class Board {
   "Time to take a rest....", 
   "Fight the odd battle.", 
   "This, I daresay, is quite strange...."
-  }
+  };
   public String[] special = {
   "Ooh, a dragon!", 
   "Hide!", 
   "Ooh boy.", 
   "Well, this is not good."
-  }
+  };
   public void start() {
     space = 1;
     playGame();
