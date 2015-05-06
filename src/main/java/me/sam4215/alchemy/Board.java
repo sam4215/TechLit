@@ -12,11 +12,11 @@ public class Board {
   "Ooh boy.", 
   "Well, this is not good."
   };
-  public void start() {
+  public static void start() {
     space = 1;
     playGame();
   }
-  public void playGame() {
+  public static void playGame() {
     while(space <= 25) {
       int s = Math.random();
       if(s > 5 || s < 0) {
