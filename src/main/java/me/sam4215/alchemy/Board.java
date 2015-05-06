@@ -1,12 +1,12 @@
 public class Board {
-  public int space;
-  public String[] cards = {
+  public static double space;
+  public static String[] cards = {
   "Everthing seems quiet, that's strange....", 
   "Time to take a rest....", 
   "Fight the odd battle.", 
   "This, I daresay, is quite strange...."
   };
-  public String[] special = {
+  public static String[] special = {
   "Ooh, a dragon!", 
   "Hide!", 
   "Ooh boy.", 
@@ -18,7 +18,7 @@ public class Board {
   }
   public static void playGame() {
     while(space <= 25) {
-      int s = Math.random();
+      double s = Math.random();
       if(s > 5 || s < 0) {
         for(String str : cards) {
           System.out.println(str);
@@ -29,7 +29,7 @@ public class Board {
         for(String str : special) {
           System.out.println(str);
         }
-        int nextSpace = space + Math.random();
+        double nextSpace = space + Math.random();
         nextSpace = space;
      }
     }
