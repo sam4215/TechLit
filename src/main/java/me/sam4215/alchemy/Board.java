@@ -1,4 +1,4 @@
-public class Board {
+public static class Board {
   public static double space;
   public static String[] cards = {
   "Everthing seems quiet, that's strange....", 
