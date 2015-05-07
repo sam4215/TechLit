@@ -24,7 +24,9 @@ public class Board {
   public static String s23 = "| | | | | | | | | | | | | | | | | | | | | | |O| | ||";
   public static String s24 = "| | | | | | | | | | | | | | | | | | | | | | | |O| ||";
   public static String s25 = "| | | | | | | | | | | | | | | | | | | | | | | | |O||";
-  public static double space;
+  public static double p1s;
+  public static double p2s;
+  public static int whoseTurn = 1; //1 = Player 1, 2 = Player 2
   public static String[] cards = {
   "Everthing seems quiet, that's strange....", 
   "Time to take a rest....", 
@@ -38,7 +40,8 @@ public class Board {
   "Well, this is not good."
   };
   public static void start() {
-    space = 1;
+    p1s = 1;
+    p2s = 1;
     playGame();
   }
   public static void playGame() {
