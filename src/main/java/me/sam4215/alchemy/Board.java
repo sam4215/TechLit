@@ -1,4 +1,9 @@
 public class Board {
+  public String s1 = "|O| | | | | | | | | | | | | | | | | | | | | | | | | ||"
+  public String s2 = "| |O| | | | | | | | | | | | | | | | | | | | | | | | ||"
+  public String s3 = "| | |O| | | | | | | | | | | | | | | | | | | | | | | ||"
+  public String s4 = "| | | |O| | | | | | | | | | | | | | | | | | | | | | ||"
+  public String s5 = 
   public static double space;
   public static String[] cards = {
   "Everthing seems quiet, that's strange....", 
