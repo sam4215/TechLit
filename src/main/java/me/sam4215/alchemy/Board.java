@@ -45,23 +45,42 @@ public class Board {
     playGame();
   }
   public static void playGame() {
-    while(space <= 25) {
-      double s = Math.random();
-      if(s > 5 || s < 0) {
-        for(String str : cards) {
-          System.out.println(str);
+    while(p1s <= 25 && p2s <= 25) {
+    if(whoseTurn = 1) {
+        double s = Math.random();
+        if(s > 5 || s < 0) {
+          for(String str : cards) {
+            System.out.println(str);
+          }
+          p1s++;
         }
-        space++;
+        else {
+          for(String str : special) {
+            System.out.println(str);
+          }
+          double nextSpace = p1s + Math.random();
+          nextSpace = p1s;
       }
-      else {
-        for(String str : special) {
-          System.out.println(str);
+      whoseTurn = 2;
+    } else {
+        double s = Math.random();
+        if(s > 5 || s < 0) {
+          for(String str : cards) {
+            System.out.println(str);
+          }
+          p2s++;
         }
-        double nextSpace = space + Math.random();
-        nextSpace = space;
-     }
+        else {
+          for(String str : special) {
+            System.out.println(str);
+          }
+          double nextSpace = p2s + Math.random();
+          nextSpace = p2s;
+        }
+    whoseTurn = 1;
     }
-      System.out.println("You win!");
-      System.exit(0);
+  }
+  System.out.println("You win!");
+  System.exit(0);
   }
 }
