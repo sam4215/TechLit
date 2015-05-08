@@ -123,6 +123,81 @@ public class Board {
     if(p1s = 25) {
       out.println(s25);
     }
+    if(p1s = 1) {
+      out.println(s1);
+    }
+    if(p1s = 2) {
+      out.println(s2);
+    }
+    if(p1s = 3) {
+      out.println(s3);
+    }
+    if(p1s = 4) {
+      out.println(s4);
+    }
+    if(p1s = 5) {
+      out.println(s5);
+    }
+    if(p1s = 6) {
+      out.println(s6);
+    }
+    if(p1s = 7) {
+      out.println(s7);
+    }
+    if(p1s = 8) {
+      out.println(s8);
+    }
+    if(p1s = 9) {
+      out.println(s9);
+    }
+    if(p1s = 10) {
+      out.println(s10);
+    }
+    if(p1s = 11) {
+      out.println(s11);
+    }
+    if(p1s = 12) {
+      out.println(s12);
+    }
+    if(p1s = 13) {
+      out.println(s13);
+    }
+    if(p1s = 14) {
+      out.println(s14);
+    }
+    if(p1s = 15) {
+      out.println(s15);
+    }
+    if(p1s = 16) {
+      out.println(s16);
+    }
+    if(p1s = 17) {
+      out.println(s17);
+    }
+    if(p1s = 18) {
+      out.println(s18);
+    }
+    if(p1s = 19) {
+      out.println(s19);
+    }
+    if(p1s = 20) {
+      out.println(s20);
+    }
+    if(p1s = 21) {
+      out.println(s21);
+    }
+    if(p1s = 22) { //incomplete
+      out.println(s22);
+    }
+    if(p2s = 23) {
+      out.println(s23);
+    }
+    if(p2s = 24) {
+      out.println(s24);
+    }
+    if(p2s = 25) {
+      out.println(s25);
+    }
     if(whoseTurn = 1) {
         double s = Math.random();
         if(s > 5 || s < 0) {
