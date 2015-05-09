@@ -1,3 +1,7 @@
+package me.sam4215.alchemy;
+
+import me.sam4215.alchemy.Board;
+
 public class Alchemy {
   private String name = "Alchemy";
   private String creator = "Sam";
