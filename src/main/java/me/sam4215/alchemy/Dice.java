@@ -1,3 +1,5 @@
+package me.sam4215.alchemy;
+
 public class Dice {
   public int[] output = {1, 2, 3, 4, 5, 6};
   public void roll() {
