@@ -1,7 +1,7 @@
 package me.sam4215.alchemy;
 
 import static java.lang.System.out;
-lel
+
 public class Board {
   public static String s1 = "|O| | | | | | | | | | | | | | | | | | | | | | | | ||";
   public static String s2 = "| |O| | | | | | | | | | | | | | | | | | | | | | | ||";
@@ -51,84 +51,111 @@ public class Board {
   public static void playGame() {
     while(p1s <= 25 && p2s <= 25) {
     if(p1s == 1) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s1);
     }
     if(p1s == 2) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s2);
     }
     if(p1s == 3) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s3);
     }
     if(p1s == 4) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s4);
     }
     if(p1s == 5) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s5);
     }
     if(p1s == 6) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s6);
     }
     if(p1s == 7) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s7);
     }
     if(p1s == 8) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s8);
     }
     if(p1s == 9) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s9);
     }
     if(p1s == 10) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s10);
     }
     if(p1s == 11) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s11);
     }
     if(p1s == 12) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s12);
     }
     if(p1s == 13) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s13);
     }
     if(p1s == 14) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s14);
     }
     if(p1s == 15) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s15);
     }
     if(p1s == 16) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s16);
     }
     if(p1s == 17) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s17);
     }
     if(p1s == 18) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s18);
     }
     if(p1s == 19) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s19);
     }
     if(p1s == 20) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s20);
     }
     if(p1s == 21) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s21);
     }
     if(p1s == 22) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s22);
     }
     if(p1s == 23) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s23);
     }
     if(p1s == 24) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s24);
     }
     if(p1s == 25) {
+      out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
       out.println(s25);
     }
       if(p2s == 1) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s1);
       }
       if(p2s == 2) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s2);
       }
       if(p2s == 3) {
