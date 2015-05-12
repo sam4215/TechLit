@@ -1,7 +1,7 @@
 package me.sam4215.alchemy;
 
 import static java.lang.System.out;
-
+lel
 public class Board {
   public static String s1 = "|O| | | | | | | | | | | | | | | | | | | | | | | | ||";
   public static String s2 = "| |O| | | | | | | | | | | | | | | | | | | | | | | ||";
