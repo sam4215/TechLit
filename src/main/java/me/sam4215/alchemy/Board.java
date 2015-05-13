@@ -159,72 +159,95 @@ public class Board {
         out.println(s2);
       }
       if(p2s == 3) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s3);
       }
       if(p2s == 4) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s4);
       }
       if(p2s == 5) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s5);
       }
       if(p2s == 6) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s6);
       }
       if(p1s == 7) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s7);
       }
       if(p2s == 8) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s8);
       }
       if(p2s == 9) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s9);
       }
       if(p2s == 10) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s10);
       }
       if(p2s == 11) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s11);
       }
       if(p2s == 12) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s12);
       }
       if(p2s == 13) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s13);
       }
       if(p2s == 14) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s14);
       }
       if(p2s == 15) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s15);
       }
       if(p2s == 16) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s16);
       }
       if(p2s == 17) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s17);
       }
       if(p2s == 18) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s18);
       }
       if(p2s == 19) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s19);
       }
       if(p2s == 20) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s20);
       }
       if(p2s == 21) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s21);
       }
       if(p2s == 22) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s22);
       }
       if(p2s == 23) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s23);
       }
       if(p2s == 24) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s24);
       }
       if(p2s == 25) {
+        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s25);
       }
     if(whoseTurn == 1) {
