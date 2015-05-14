@@ -3,6 +3,7 @@ package me.sam4215.alchemy;
 import static java.lang.System.out;
 
 public class Board {
+  Dice dice = new Dice();
   public static String s1 = "|O| | | | | | | | | | | | | | | | | | | | | | | | ||";
   public static String s2 = "| |O| | | | | | | | | | | | | | | | | | | | | | | ||";
   public static String s3 = "| | |O| | | | | | | | | | | | | | | | | | | | | | ||";
@@ -233,13 +234,14 @@ public class Board {
           for(String str : cards) {
             System.out.println(str);
           }
-          p1s++;
+          double nextSpace = p1s + dice.output();
+          nextSpace = p1s;
         }
         else {
           for(String str : special) {
             System.out.println(str);
           }
-          double nextSpace = p1s + Math.random();
+          double nextSpace = p1s + dice.output();
           nextSpace = p1s;
       }
       whoseTurn = 2;
@@ -249,13 +251,13 @@ public class Board {
           for(String str : cards) {
             System.out.println(str);
           }
-          p2s++;
+          double nextSpace = p2s + dice.output();
         }
         else {
           for(String str : special) {
             System.out.println(str);
           }
-          double nextSpace = p2s + Math.random();
+          double nextSpace = p2s + dice.output();
           nextSpace = p2s;
         }
     whoseTurn = 1;
