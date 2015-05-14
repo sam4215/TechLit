@@ -3,7 +3,7 @@ package me.sam4215.alchemy;
 import static java.lang.System.out;
 
 public class Board {
-  Dice dice = new Dice();
+  static Dice dice = new Dice();
   public static String s1 = "|O| | | | | | | | | | | | | | | | | | | | | | | | ||";
   public static String s2 = "| |O| | | | | | | | | | | | | | | | | | | | | | | ||";
   public static String s3 = "| | |O| | | | | | | | | | | | | | | | | | | | | | ||";
