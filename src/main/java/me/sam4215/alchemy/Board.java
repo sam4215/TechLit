@@ -234,7 +234,7 @@ public class Board {
           for(String str : cards) {
             System.out.println(str);
           }
-          double nextSpace = p1s + dice.d();
+          double nextSpace = p1s + dice.output();
           nextSpace = p1s;
         }
         else {
