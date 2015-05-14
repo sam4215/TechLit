@@ -234,14 +234,14 @@ public class Board {
           for(String str : cards) {
             System.out.println(str);
           }
-          double nextSpace = p1s + dice.output();
+          double nextSpace = p1s + dice.d();
           nextSpace = p1s;
         }
         else {
           for(String str : special) {
             System.out.println(str);
           }
-          double nextSpace = p1s + dice.output();
+          double nextSpace = p1s + dice.d();
           nextSpace = p1s;
       }
       whoseTurn = 2;
@@ -251,13 +251,13 @@ public class Board {
           for(String str : cards) {
             System.out.println(str);
           }
-          double nextSpace = p2s + dice.output();
+          double nextSpace = p2s + dice.d();
         }
         else {
           for(String str : special) {
             System.out.println(str);
           }
-          double nextSpace = p2s + dice.output();
+          double nextSpace = p2s + dice.d();
           nextSpace = p2s;
         }
     whoseTurn = 1;
