@@ -5,7 +5,7 @@ public class Dice {
   public void roll() {
     for(double d : output) {
       System.out.println("Dice roll output: " + d + "!");
+      double diceRoll = d;
     }
-    double diceRoll = d;
   }
 }
