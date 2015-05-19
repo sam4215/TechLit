@@ -1,10 +1,12 @@
 package me.sam4215.alchemy;
 
 public class Dice {
-  public int[] output = {1, 2, 3, 4, 5, 6};
+  public double[] output = {1, 2, 3, 4, 5, 6};
+  public double diceRoll;
   public void roll() {
-    for(int i : output) {
-      System.out.println("Dice roll output: " + i + "!");
+    for(double d : output) {
+      System.out.println("Dice roll output: " + d + "!");
+      diceRoll = d;
     }
   }
 }
