@@ -152,11 +152,9 @@ public class Board {
       out.println(s25);
     }
       if(p2s == 1) {
-        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s1);
       }
       if(p2s == 2) {
-        out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         out.println(s2);
       }
       if(p2s == 3) {
